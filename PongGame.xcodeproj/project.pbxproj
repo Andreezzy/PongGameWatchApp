@@ -12,6 +12,7 @@
 		018A80F1295EA50E00D5F4A0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018A80F0295EA50E00D5F4A0 /* ContentView.swift */; };
 		018A80F3295EA50F00D5F4A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 018A80F2295EA50F00D5F4A0 /* Assets.xcassets */; };
 		018A80F6295EA50F00D5F4A0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 018A80F5295EA50F00D5F4A0 /* Preview Assets.xcassets */; };
+		018A8101295EA6EA00D5F4A0 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018A8100295EA6EA00D5F4A0 /* GameScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		018A80F0295EA50E00D5F4A0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		018A80F2295EA50F00D5F4A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		018A80F5295EA50F00D5F4A0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		018A8100295EA6EA00D5F4A0 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 			children = (
 				018A80EE295EA50E00D5F4A0 /* PongGameApp.swift */,
 				018A80F0295EA50E00D5F4A0 /* ContentView.swift */,
+				018A8100295EA6EA00D5F4A0 /* GameScene.swift */,
 				018A80F2295EA50F00D5F4A0 /* Assets.xcassets */,
 				018A80F4295EA50F00D5F4A0 /* Preview Content */,
 			);
@@ -192,6 +195,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				018A8101295EA6EA00D5F4A0 /* GameScene.swift in Sources */,
 				018A80F1295EA50E00D5F4A0 /* ContentView.swift in Sources */,
 				018A80EF295EA50E00D5F4A0 /* PongGameApp.swift in Sources */,
 			);
